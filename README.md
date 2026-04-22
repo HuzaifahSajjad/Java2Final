@@ -6,3 +6,4 @@ There MIGHT be a recipe book or compendium of items. (There won't be.)
 
 ### AI Use
 The main game loop, the part that comes after the opening monologue, but not the smaller methods. Any all design choices, narrative choices, and flavor text are my own.
+(Anecdotally, despite this being a graded project where AI is 100% allowed, it still felt dirty to do. Also, the code was REALLY good. AI's actually super competent at coding. Holy Boohbah.)
