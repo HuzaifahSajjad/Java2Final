@@ -9,7 +9,7 @@ public class AvariceAndGluttony {
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
         System.out.println("\n!! AVARICE & GLUTTONY !!");
-        System.out.println("Type 'lore' if you want to remember the painful reason you started all of this, or anything else to forget your pain:");
+        System.out.println("Type 'lore' if you want to remember the painful reason you started all of this, or anything else to drown it out:");
 
         String loreChoice = input.nextLine();
 
@@ -96,8 +96,8 @@ public class AvariceAndGluttony {
     }
 
     static void scavenge() throws InterruptedException {
-        String found = Resources.allResources[
-                new Random().nextInt(Resources.allResources.length)
+        String found = Resources.scavengeableResources[
+                new Random().nextInt(Resources.scavengeableResources.length)
                 ];
 
         Resources item = new Resources(found);
@@ -130,7 +130,7 @@ public class AvariceAndGluttony {
             clearScreen();
             interactWithItem(item, index);
         } catch (Exception e) {
-            System.out.println("You're grasping at air!");
+            System.out.println("You're grasping for air!");
             Thread.sleep(500);
             clearScreen();
         }
