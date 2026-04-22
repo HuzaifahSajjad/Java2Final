@@ -10,4 +10,4 @@ The main game loop, the part that comes after the opening monologue, but not the
 (Anecdotally, despite this being a graded project where AI is 100% allowed, it still felt dirty to do. Also, the code was REALLY good. AI's actually super competent at coding. Holy Boohbah.)
 
 ### To Run
-...
+Ensure you have Java installed, compile the files in "Code" directory with "javac Code/*.java", then use "java -cp Code AvariceAndGluttony"
