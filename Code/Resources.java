@@ -1,4 +1,4 @@
-public class BaseResources {
+public class Resources {
     protected String name;
     protected String obtainDescription;
     protected String analyzeDescription;
