@@ -10,4 +10,4 @@ The main game loop shell (the part that comes after the opening monologue), but 
 (Anecdotally, despite this being a graded project where AI is 100% allowed, it still felt dirty to do. Also, the code was REALLY good. AI's actually super competent at coding. Holy Boohbah.)
 
 ### To Run
-Ensure you have Java installed, compile the files in "Code" directory with "javac Code/*.java", then use "java -cp Code AvariceAndGluttony"
+Ensure you have Java installed, download the files from the Code directory as a ZIP file, unzip them, open command prompt and cd inside the unzipped Code folder, and run the commands "javac *.java" then "java AvariceAndGluttony" and the game should run.
